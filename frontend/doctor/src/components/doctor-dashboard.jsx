@@ -275,7 +275,7 @@ export default function DoctorDashboard({ onSignOut, onSeePatient }) {
           {activeTab === 'history' && (
             <div className="bg-white p-6 rounded-lg shadow">
               <h2 className="text-lg font-semibold mb-2">Recent Patient History</h2>
-              <p className="text-gray-500 mb-4">Previously seen patients</p>
+              <p className="text-gray-500 mb-4">Previously seen patient</p>
               <table className="min-w-full text-sm">
                 <thead>
                   <tr className="border-b text-left text-gray-600">
